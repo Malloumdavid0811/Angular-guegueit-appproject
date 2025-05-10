@@ -1,5 +1,5 @@
 import { Component, computed, signal } from '@angular/core';
-import { PRODUIT_LIST } from './produit-list.fake';
+import { PRODUIT_LIST } from './produit-list';
 import { Produit } from './produit.model';
 
 @Component({

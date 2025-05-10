@@ -1,4 +1,6 @@
 import { Component, computed, signal } from '@angular/core';
+import { PRODUIT_LIST } from './produit-list.fake';
+import { Produit } from './produit.model';
 
 @Component({
   selector: 'app-root',
@@ -7,28 +9,25 @@ import { Component, computed, signal } from '@angular/core';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  name = signal('Produit1');
-  life = signal(21);
-  size = computed(() => { 
-    if (this.life() < 15) {
-       return 'Petit';
+  produitList = signal(PRODUIT_LIST);
+  
+  size(produit: Produit) {
+    if (produit.number < 2) {
+      return '1 produit vendu entre 3000 Francs et 5000 Francs';
     }
 
-    if (this.life() > 25) {
-       return 'Grand';
+    if (produit.number > 2) {
+      return '3 ou plusieurs produits vendus à plus de 12000 Francs';
     }
 
-    return 'Moyen';
-  });
-  imageSrc = signal(
-    'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png'
-  );
-
-  incrementLife() {
-    this.life.update((life) => life + 1);
+    return '2 produits vendus entre 6000 Francs et 10000 Francs'
   }
 
-  decrementLife() {
-    this.life.update((life) => life - 1);
+  incrementLife(produit: Produit) {
+    produit.number = produit.number + 1;
+  }
+
+  decrementLife(produit: Produit) {
+    produit.number = produit.number - 1;
   }
 }

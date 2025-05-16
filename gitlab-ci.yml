@@ -1,0 +1,28 @@
+stages:
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  image: node:20
+  script:
+    - mkdir -p /app
+    - cd /app
+
+build:
+  stage: build
+  image: node:20
+  script:
+    - mkdir -p src
+  artifacts:
+    paths:
+      - dist/
+
+deploy:
+  stage: deploy
+  image: node:20
+  script:
+    - npm install -g @angular/cli
+  only:
+    - main

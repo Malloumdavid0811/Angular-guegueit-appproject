@@ -1,5 +1,3 @@
-THEME: Développement d'une application Front end avec le Framework Angular et mise en place de son pipeline CI/CD avec GitLab et Jenkins
-
 # AngularGuegueitApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
@@ -59,6 +57,9 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+THEME: Développement d'une application Front end avec le Framework Angular et mise en place de son pipeline CI/CD avec GitLab et Jenkins
 
 Introduction (Contexte)
 

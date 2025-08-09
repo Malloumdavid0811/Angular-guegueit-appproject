@@ -1,5 +1,9 @@
 THEME: Développement d'une application Front end avec le Framework Angular et mise en place de son pipeline CI/CD avec GitLab et Jenkins
 
+Introduction (Contexte)
+
+Un français d’origine tchadienne a ouvert un magasin de vente de jeux vidéo dans son pays d’origine dénommé «GUEGUE IT». Vu les réalités de son pays d’origine par une quasi-absence d’Amazon pour le commerce en ligne et une connexion internet passable, il souhaiterait avoir une petite application sécurisée, qui consomme très peu de ressources en production afin de l’utiliser pendant la période de promotion qu’il a fixé pour les vacances d’été entre mai et août.
+
 A) Développement d’une application Front end avec le Framework Angular
 
 a) Le cahier de charges
@@ -74,3 +78,7 @@ lister tous les nœuds d’un cluster Kubernetes, avec des informations de base 
 C) Mise en place d’un pipeline CI/CD avec GitLab par exemple
 
 Ici, nous avons créé un projet sur Gitlab, transformé les configurations du DockerFile en langage shell, modifié le pipeline editor en fonction des résultats obtenus et cliquer sur le bouton «Commit changes». Et enfin, nous avons mis en place le pipeline CI/CD que nous allons vous présenter en capture d'écran sur mon profil LinkedIn.
+
+Conclusion
+
+En définitive, nous pouvons affirmer que le choix du Framework Angular pour développer l’application était la meilleure option parce qu’il est basé sur le langage JavaScript qu’on peut utiliser en Front end comme en Back end, et il nous permet également de consommer moins de ressources en production par rapport à une même application écrit en langage PHP par exemple.

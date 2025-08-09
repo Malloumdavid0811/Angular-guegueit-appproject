@@ -72,8 +72,9 @@ Etape 3: Ensuite, nous allons créer le fichier deployment.yaml et taper les com
 Etape 4 : Ensuite, nous allons taper la commande "docker push
 malloumdavid/myangularapp" qui nous permet d’effectuer le push de l’image Docker locale vers notre Docker Hub. Nous avons donc notre image docker présent sur notre Docker Hub.
 
-Etape 5 : Ensuite, nous allons modifier le fichier deployment.yaml et taper la commande "minikube start - -nodes=3 –p multinode" qui nous permet de démarrer un cluster Kubernetes local avec Minikube, en spécifiant les 3 nœuds dans le cluster (1 master + 2 workers) et un profil nommé «multinode». Et enfin, nous allons taper la commande "kubectl get nodes" qui nous permet
-lister tous les nœuds d’un cluster Kubernetes, avec des informations de base sur chacun d'eux. Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
+Etape 5 : Ensuite, nous allons modifier le fichier deployment.yaml et taper la commande "minikube start - -nodes=3 –p multinode" qui nous permet de démarrer un cluster Kubernetes local avec Minikube, en spécifiant les 3 nœuds dans le cluster (1 master + 2 workers) et un profil nommé «multinode». 
+
+Etape 6: Et enfin, nous allons taper la commande "kubectl get nodes" qui nous permet lister tous les nœuds d’un cluster Kubernetes, avec des informations de base sur chacun d'eux. Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
 
 C) Mise en place d’un pipeline CI/CD avec GitLab par exemple
 

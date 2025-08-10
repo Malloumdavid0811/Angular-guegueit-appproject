@@ -61,15 +61,15 @@ For more information on using the Angular CLI, including detailed command refere
 
 ## THEMATIQUE: Développement d'une application Front end avec le Framework Angular et mise en place de son pipeline CI/CD avec GitLab et Jenkins
 
-Introduction (Contexte)
+### Introduction (Contexte)
 
 Un français d’origine tchadienne a ouvert un magasin de vente de jeux vidéo dans son pays d’origine dénommé «GUEGUE IT». Vu les réalités de son pays d’origine par une quasi-absence d’Amazon pour le commerce en ligne et une connexion internet passable, il souhaiterait avoir une petite application sécurisée, qui consomme très peu de ressources en production afin de l’utiliser pendant la période de promotion qu’il a fixé pour les vacances d’été entre mai et août.
 
-A) Développement d’une application Front end avec le Framework Angular
+### A) Développement d’une application Front end avec le Framework Angular
 
-a) Le cahier de charges
+#### a) Le cahier de charges
 
-- Présentation de la société
+###### - Présentation de la société
 Présentation de l’activité de la société : L’activité principale de la société «GUEGUE IT» est de vendre des consoles de Playstation 4, de XBOX ONE et des CD de jeux vidéo.
 Expression des besoins : Besoin de réalisation d’une petite application afin de l’utiliser pendant la période de promotion fixé pour les vacances d’été entre mai et août.
 Explication du rôle de l’application dans la stratégie de la société : Le rôle de l’application dans la stratégie de la société est de passer l’information sur les

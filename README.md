@@ -117,7 +117,6 @@ Angular intègre de manière native des processus avancés de protection contre 
 
 ### d) Présentation de l’application
 
-Les différents dossiers de notre application se trouvent sut notre GitHub à travers le lien suivant : https://github.com/Malloumdavid0811/Angular-guegueitappproject
 Notre application est disponible en ligne à travers le lien suivant : https://angularguegueit-app.web.app/
 
 ## B) Création de nœuds avec Minikube

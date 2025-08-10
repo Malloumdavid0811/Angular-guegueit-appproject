@@ -69,7 +69,7 @@ Un français d’origine tchadienne a ouvert un magasin de vente de jeux vidéo 
 
 #### a) Le cahier de charges
 
-###### - Présentation de la société
+##### - Présentation de la société
 Présentation de l’activité de la société : L’activité principale de la société «GUEGUE IT» est de vendre des consoles de Playstation 4, de XBOX ONE et des CD de jeux vidéo.
 Expression des besoins : Besoin de réalisation d’une petite application afin de l’utiliser pendant la période de promotion fixé pour les vacances d’été entre mai et août.
 Explication du rôle de l’application dans la stratégie de la société : Le rôle de l’application dans la stratégie de la société est de passer l’information sur les
@@ -77,7 +77,7 @@ prix des CD de jeux vidéo pendant la période de promotion.
 Conception : Conception de la solution et identification des risques.
 Indication de la date butoir pour la fin du projet : Mise en ligne de l'application escomptée après le 18/05/2025.
 
-- Cible à laquelle s’adresse l’application
+##### - Cible à laquelle s’adresse l’application
 Cible : La cible toute personne souhaitant acheter des CD de jeux vidéo moins chères.
 Lieu de la cible : De manière générale, la cible se trouve sur internet, à travers des canaux numériques qu’elle fréquente tels que les réseaux sociaux.
 

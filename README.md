@@ -99,17 +99,10 @@ Cas du nom de domaine et de l’hébergement : Le nom de domaine et l’héberge
 UML (Unified Modeling Language ou Langage de modélisation unifié) est un langage de modélisation fondé sur le concept objet. L’objectif d’UML est de fournir une notation standard utilisable dans le développement des systèmes informatiques basés sur l’objet.
 
 #### Diagramme de cas d’utilisation Visiteur
+![1756297140705](https://github.com/user-attachments/assets/b8f1a3e9-b736-48ae-9515-58680eda8d86)
 
 #### - Fiche de Cockburn user case
-Titre : Diagramme de cas d’utilisation Visiteur.
-Résumé : Nous avons la représentation du visiteur qui peut naviguer sur l’application, en faisant l’incrémentation et la décrémentation du nombre de CD en fonction du prix.
-Acteur : Visiteur.
-Motivation : L’acteur veut naviguer sur l’application.
-Pré-condition(s) : Aucune.
-Post-condition(s) : Aucune. Exceptions : Aucune.
-Remarques ergonomiques (éventuellement) : Aucune.
-Contraintes non fonctionnelles (éventuellement) : Aucune.
-Scénario Nominal : [Enchaînement de Cockburn].
+![1756297156872](https://github.com/user-attachments/assets/4634773d-24a0-4aa8-a2d7-31283976736d)
 
 ### c) Sécurité dans Angular
 
@@ -118,6 +111,7 @@ Angular intègre de manière native des processus avancés de protection contre 
 ### d) Présentation de l’application
 
 Notre application est disponible en ligne à travers le lien suivant : https://angularguegueit-app.web.app/
+![1756297171573](https://github.com/user-attachments/assets/a22b2874-8512-4ed7-8455-1fe6ce7925fb)
 
 ## B) Création de nœuds avec Minikube
 

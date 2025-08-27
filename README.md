@@ -99,9 +99,11 @@ Cas du nom de domaine et de l’hébergement : Le nom de domaine et l’héberge
 UML (Unified Modeling Language ou Langage de modélisation unifié) est un langage de modélisation fondé sur le concept objet. L’objectif d’UML est de fournir une notation standard utilisable dans le développement des systèmes informatiques basés sur l’objet.
 
 #### Diagramme de cas d’utilisation Visiteur
+
 ![1756298497731](https://github.com/user-attachments/assets/12227aca-2970-4ee1-88ac-68a2e757f08e)
 
 #### - Fiche de Cockburn user case
+
 ![1756297156872](https://github.com/user-attachments/assets/4634773d-24a0-4aa8-a2d7-31283976736d)
 
 ### c) Sécurité dans Angular
@@ -111,6 +113,7 @@ Angular intègre de manière native des processus avancés de protection contre 
 ### d) Présentation de l’application
 
 Notre application est disponible en ligne à travers le lien suivant : https://angularguegueit-app.web.app/
+
 ![1756298507517](https://github.com/user-attachments/assets/6201314f-66be-434b-a698-a901ac33c6b9)
 
 ## B) Création de nœuds avec Minikube
@@ -118,11 +121,13 @@ Notre application est disponible en ligne à travers le lien suivant : https://a
 #### Etape 1: 
 Nous allons tout d’abord créer le Dockerfile et taper la commande "docker build –t my-angular-dev ." qui nous permet de créer une image Docker à partir du Dockerfile
 situé dans le répertoire courant (.).
+
 ![1756298516500](https://github.com/user-attachments/assets/ffb86cac-0b7e-4f71-b9af-9f47add664db)
 
 #### Etape 2: 
 Ensuite, nous allons taper la commande "docker run –d –it –p 4201:4200 my-angulardev" qui nous permet d’exécuter un conteneur à partir de l’image Docker nommée «myangular-dev».
 Nous avons donc notre conteneur appelé «sleepy_bhabha» présent sur notre Docker Desktop.
+
 ![1756298524290](https://github.com/user-attachments/assets/7f8a5c9d-ad3a-461d-822e-0ac455547133)
 
 Nous avons donc notre conteneur appelé «sleepy_bhabha» présent sur notre Docker Desktop.
@@ -130,25 +135,42 @@ Nous avons donc notre conteneur appelé «sleepy_bhabha» présent sur notre Doc
 
 #### Etape 3: 
 Ensuite, nous allons créer le fichier deployment.yaml et taper les commandes "docker tag mon-express-app1 malloumdavid/myangularapp" qui nous permet d’ajouter un nouveau nom (tag) à une image Docker existante et "docker login" qui nous permet de nous authentifier auprès de notre Docker Hub.
+
 ![1756298539063](https://github.com/user-attachments/assets/e52d2065-658c-43d6-9d63-cf91d91bf9de)
 
 #### Etape 4: 
 Ensuite, nous allons taper la commande "docker push malloumdavid/myangularapp" qui nous permet d’effectuer le push de l’image Docker locale vers notre Docker Hub. Nous avons donc notre image docker présent sur notre Docker Hub.
+
 ![1756298547007](https://github.com/user-attachments/assets/65b47bd1-ce0d-4927-a2d9-79e27f6bd473)
+
+Nous avons donc notre image docker présent sur notre Docker Hub.
+
+![1756298555358](https://github.com/user-attachments/assets/0fadb269-8965-49a6-8519-f1a4c730a2be)
+
 
 #### Etape 5 : 
 Ensuite, nous allons modifier le fichier deployment.yaml et taper la commande "minikube start - -nodes=3 –p multinode" qui nous permet de démarrer un cluster Kubernetes local avec Minikube, en spécifiant les 3 nœuds dans le cluster (1 master + 2 workers) et un profil nommé «multinode». 
 
+![1756298566689](https://github.com/user-attachments/assets/820a1fb7-f822-4cf3-bd75-0f0ee5a967a3)
+
 #### Etape 6: 
 Et enfin, nous allons taper la commande "kubectl get nodes" qui nous permet lister tous les nœuds d’un cluster Kubernetes, avec des informations de base sur chacun d'eux. Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
+
+![1756298576556](https://github.com/user-attachments/assets/29da5e81-f0b7-4fb6-8b17-0bd86db45636)
+
+Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
+
+![1756298599664](https://github.com/user-attachments/assets/9c0d7941-826c-479d-92f2-52aef8ab71fa)
 
 ## C) Mise en place d’un pipeline CI/CD avec GitLab et Jenkins
 
 Avec GitLab par exemple, nous avons transformé les configurations du DockerFile en langage shell, modifié le pipeline editor en fonction des résultats obtenus et cliquer sur le bouton «Commit changes».
+
 ![1751850786793](https://github.com/user-attachments/assets/304115f2-8891-48d7-9d5f-665b15f2edce)
 ![1747410196826](https://github.com/user-attachments/assets/0f1cde37-495a-4cdc-b2e3-1a201fa6a047)
 
 Pour le cas de JenKins, nous avons procédé différemment avec toujours les memes intances ec2 utilisées.
+
 ![1751882194674](https://github.com/user-attachments/assets/8e9b8b43-8451-477e-8aa9-2f72215e9737)
 ![1751882226279](https://github.com/user-attachments/assets/6c962006-911a-4388-a7cb-f7e884337866)
 

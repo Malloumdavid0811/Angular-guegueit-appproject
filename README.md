@@ -167,11 +167,13 @@ Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
 Avec GitLab par exemple, nous avons transformé les configurations du DockerFile en langage shell, modifié le pipeline editor en fonction des résultats obtenus et cliquer sur le bouton «Commit changes».
 
 ![1751850786793](https://github.com/user-attachments/assets/304115f2-8891-48d7-9d5f-665b15f2edce)
+
 ![1747410196826](https://github.com/user-attachments/assets/0f1cde37-495a-4cdc-b2e3-1a201fa6a047)
 
 Pour le cas de JenKins, nous avons procédé différemment avec toujours les memes intances ec2 utilisées.
 
 ![1751882194674](https://github.com/user-attachments/assets/8e9b8b43-8451-477e-8aa9-2f72215e9737)
+
 ![1751882226279](https://github.com/user-attachments/assets/6c962006-911a-4388-a7cb-f7e884337866)
 
 ## Conclusion

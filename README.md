@@ -141,9 +141,15 @@ Ensuite, nous allons modifier le fichier deployment.yaml et taper la commande "m
 #### Etape 6: 
 Et enfin, nous allons taper la commande "kubectl get nodes" qui nous permet lister tous les nœuds d’un cluster Kubernetes, avec des informations de base sur chacun d'eux. Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
 
-## C) Mise en place d’un pipeline CI/CD avec GitLab par exemple
+## C) Mise en place d’un pipeline CI/CD avec GitLab et Jenkins
 
-Ici, nous avons créé un projet sur Gitlab, transformé les configurations du DockerFile en langage shell, modifié le pipeline editor en fonction des résultats obtenus et cliquer sur le bouton «Commit changes». Et enfin, nous avons mis en place le pipeline CI/CD que nous allons vous présenter en capture d'écran sur mon profil LinkedIn.
+Avec GitLab par exemple, nous avons transformé les configurations du DockerFile en langage shell, modifié le pipeline editor en fonction des résultats obtenus et cliquer sur le bouton «Commit changes».
+![1751850786793](https://github.com/user-attachments/assets/304115f2-8891-48d7-9d5f-665b15f2edce)
+![1747410196826](https://github.com/user-attachments/assets/0f1cde37-495a-4cdc-b2e3-1a201fa6a047)
+
+Pour le cas de JenKins, nous avons procédé différemment avec toujours les memes intances ec2 utilisées.
+![1751882194674](https://github.com/user-attachments/assets/8e9b8b43-8451-477e-8aa9-2f72215e9737)
+![1751882226279](https://github.com/user-attachments/assets/6c962006-911a-4388-a7cb-f7e884337866)
 
 ## Conclusion
 

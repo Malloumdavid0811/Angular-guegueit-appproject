@@ -164,11 +164,21 @@ Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
 
 ## C) Mise en place d’un pipeline CI/CD avec GitLab et Jenkins
 
-Avec GitLab par exemple, nous avons transformé les configurations du DockerFile en langage shell, modifié le pipeline editor en fonction des résultats obtenus et cliquer sur le bouton «Commit changes».
+Nous avons tout d'abord créer 3 instances  ec2 (prod, staging et review) sur AWS, ensuite nous avons visualiser ces instances ec2 sur MobaXterm, ensuite nous avons utilisé GitLab par exemple, pour transformer les configurations du DockerFile en langage shell, effectuer le push de notre code sur notre GitHub et sur notre GitLab, effectuer des configurations de sécrité avec notre Docker Hub et sur base64 pour la clé publique et enfin nous avons modifié l'éditeur de pipeline en fonction des résultats obtenus et cliquer sur le bouton «Commit changes».
 
-![1751850786793](https://github.com/user-attachments/assets/304115f2-8891-48d7-9d5f-665b15f2edce)
+![1758024418966](https://github.com/user-attachments/assets/70b61a71-81a1-42ac-a9ec-e717b1a2e2d7)
 
-![1747410196826](https://github.com/user-attachments/assets/0f1cde37-495a-4cdc-b2e3-1a201fa6a047)
+![1758024437577](https://github.com/user-attachments/assets/f3ae674a-7b2b-4c00-9c5c-75edfaa539ed)
+
+![1758024448804](https://github.com/user-attachments/assets/e5e9284c-6650-47a7-85d4-a30bf6b0d22b)
+
+![1758024466767](https://github.com/user-attachments/assets/37ce191e-8648-4769-bbf5-1b2dace0514f)
+
+![1758024477133](https://github.com/user-attachments/assets/19bbdfd3-f4ff-4388-a591-bae2e8d81464)
+
+![1758024485980](https://github.com/user-attachments/assets/a53a14f9-2850-42e6-af12-9cc682c31a33)
+
+![1758024494009](https://github.com/user-attachments/assets/f4991291-7602-4a7a-b182-284d09b0c970)
 
 Pour le cas de JenKins, nous avons procédé différemment avec toujours les memes intances ec2 utilisées.
 

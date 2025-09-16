@@ -164,7 +164,7 @@ Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
 
 ## C) Mise en place d’un pipeline CI/CD avec GitLab et Jenkins
 
-Nous avons tout d'abord créer 3 instances  ec2 (prod, staging et review) sur AWS, ensuite nous avons visualiser ces instances ec2 sur MobaXterm, ensuite nous avons utilisé GitLab par exemple, pour transformer les configurations du DockerFile en langage shell, effectuer le push de notre code sur notre GitHub et sur notre GitLab, effectuer des configurations de sécrité avec notre Docker Hub et sur base64 pour la clé publique et enfin nous avons modifié l'éditeur de pipeline en fonction des résultats obtenus et cliquer sur le bouton «Commit changes».
+Nous avons tout d'abord créé 3 instances  ec2 (prod, staging et review) sur AWS, ensuite nous avons visualiser ces instances ec2 sur MobaXterm, ensuite nous avons utilisé GitLab pour transformer les configurations du DockerFile obtenu en langage shell, effectuer le push de notre code sur notre GitHub et sur notre GitLab, effectuer des configurations de sécurité avec notre Docker Hub et sur base64 pour la clé publique et enfin nous avons modifié l'éditeur de pipeline en fonction des résultats obtenus afin de cliquer sur le bouton «Commit changes».
 
 ![1758024418966](https://github.com/user-attachments/assets/70b61a71-81a1-42ac-a9ec-e717b1a2e2d7)
 

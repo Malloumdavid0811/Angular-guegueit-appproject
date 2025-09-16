@@ -74,7 +74,7 @@ Release Image:
     - ssh-add /tmp/id_rsa
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
-    - ecgo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
   script:
     - ssh -o StrictHostKeyChecking=no -i /tmp/id_rsa $SERVER_USERNAME@$SERVER_IP "docker pull $DOCKER_USERNAME/$IMAGE_NAME:$IMAGE_TAG"
     - ssh -o StrictHostKeyChecking=no -i /tmp/id_rsa $SERVER_USERNAME@$SERVER_IP "docker run --rm -dp $HOST_PORT:$CONTAINER_PORT --name $IMAGE_NAME $IMAGE_NAME:$IMAGE_TAG"
@@ -104,4 +104,5 @@ Deploy Production:
   image: alpine
   <<: *deploy_app
   environment:
+
     name: Production

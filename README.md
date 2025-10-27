@@ -59,7 +59,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
-# THEMATIQUE: Développement d'une application Front end avec le Framework Angular, création de nœuds avec Minikube et mise en place de son pipeline CI/CD avec GitLab et Jenkins
+# THEMATIQUE: Développement d'une application Front end avec le Framework Angular, création de nœuds avec Minikube, création des instances ec2 avec Terraform et mise en place de son pipeline CI/CD avec GitLab et Jenkins
 
 ## Introduction (Contexte)
 

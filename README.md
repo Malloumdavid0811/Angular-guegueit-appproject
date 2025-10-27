@@ -152,7 +152,7 @@ Nous avons donc notre image docker présent sur notre Docker Hub.
 ![1756298555358](https://github.com/user-attachments/assets/0fadb269-8965-49a6-8519-f1a4c730a2be)
 
 
-#### Etape 5 : 
+#### Etape 5: 
 Ensuite, nous allons modifier le fichier deployment.yaml et taper la commande "minikube start - -nodes=3 –p multinode" qui nous permet de démarrer un cluster Kubernetes local avec Minikube, en spécifiant les 3 nœuds dans le cluster (1 master + 2 workers) et un profil nommé «multinode». 
 
 ![1756298566689](https://github.com/user-attachments/assets/820a1fb7-f822-4cf3-bd75-0f0ee5a967a3)
@@ -166,7 +166,31 @@ Nous avons donc les 3 nœuds présents sur notre Docker Desktop.
 
 ![1756298599664](https://github.com/user-attachments/assets/9c0d7941-826c-479d-92f2-52aef8ab71fa)
 
-## C) Mise en place d’un pipeline CI/CD avec GitLab et Jenkins
+## C) Création des instances ec2 avec Terraform
+
+#### Etape 1:
+Au niveau du terminal, nous allons taper la commande « terraform init » qui nous permet d’initialiser le répertoire de travail contenant les fichiers de configuration Terraform (.tf).
+
+![1761583864105](https://github.com/user-attachments/assets/cd71d414-0e38-4903-8223-1ab52cfbd92c)
+
+#### Etape 2:
+Ensuite, nous allons taper la commande « terraform plan » qui nous permet de prévisualiser les changements que Terraform va appliquer à notre infrastructure, sans les exécuter réellement.
+
+![1761583878499](https://github.com/user-attachments/assets/c83291e7-a4bd-4c8e-8e3d-990d475e798a)
+
+#### Etape 3:
+Ensuite, nous allons taper la commande « terraform apply » qui nous permet d’exécuter réellement les changements sur notre infrastructure.
+
+![1761583887024](https://github.com/user-attachments/assets/813b80ab-9524-434a-a3f9-9046fbe7a470)
+
+![1761583893528](https://github.com/user-attachments/assets/9cfce652-42eb-476a-9c5a-c083f6035daa)
+
+#### Etape 4:
+Et enfin, nous allons pouvoir apercevoir notre instance ec2 créée sur la console de notre compte AWS. 
+
+![1761583949284](https://github.com/user-attachments/assets/bd075f19-7cdb-4f1c-8c60-9f8e6f8c2d71)
+
+## D) Mise en place d’un pipeline CI/CD avec GitLab et Jenkins
 
 Nous avons tout d'abord créé 3 instances  ec2 (prod, staging et review) sur AWS, ensuite nous avons visualiser ces instances ec2 sur MobaXterm, ensuite nous avons utilisé GitLab pour transformer les configurations du DockerFile obtenu en langage shell, effectuer le push de notre code sur notre GitHub et sur notre GitLab, effectuer des configurations de sécurité avec notre Docker Hub et sur base64 pour la clé publique et enfin nous avons modifié l'éditeur de pipeline en fonction des résultats obtenus afin de cliquer sur le bouton «Commit changes».
 

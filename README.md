@@ -66,8 +66,8 @@ For more information on using the Angular CLI, including detailed command refere
 Le marché tchadien des jeux vidéo est de plus en plus croissant de marques telles que Sony, Microsoft importées pour l’essentiel de Dubaï (Emirats Arabes Unis) qui constituent l’écosystème des jeux vidéo importés. La société de jeux souhaite faire la promotion de ses services en ligne via une application sécurisée. 
 A cet effet, elle sollicite notre expertise.
 Compte tenu des enjeux, nous présentons quelques hypothèses suivantes :
--	Une solution sécurisée conçu avec le Framework Angular et avec un langage informatique tel que JavaScript.
--	Une solution sécurisée conçu avec le Framework Symfony et avec un langage informatique tel que PHP.
+-	Une solution sécurisée conçue avec le Framework Angular et avec un langage informatique tel que JavaScript.
+-	Une solution sécurisée conçue avec le Framework Symfony et avec un langage informatique tel que PHP.
 
 ## A) Développement d’une application Front end avec le Framework Angular
 

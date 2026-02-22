@@ -1,0 +1,62 @@
+<nav class="navbar bg-success mb-5">
+  <div class="container">
+     <img src="https://scontent.flil1-1.fna.fbcdn.net/v/t39.30808-6/497547303_122110729046856379_1032728134065706044_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AZKLuzvO8QUQ7kNvwFaZ3ET&_nc_oc=AdkIvvqYcXASqblrRrCol_I89ZpHsgvhfto4tlTmjJRAvghBZ3sOUzw4fr07r1mmIao&_nc_zt=23&_nc_ht=scontent.flil1-1.fna&_nc_gid=ksD6k7b3DUGkb46ncpOhaA&oh=00_AfIs3zFkbtM_rofaQNk46qUMLI8XGfbkXm5FSSNpUuhn4g&oe=682BF3DB">
+  <div class="container text-white justify-content-center">
+     <h2>Les CD de jeux vidéo en promotion chez GUEGUE IT</h2>
+  </div>
+  </div>
+  </nav>
+
+  <div class="container">
+  <div class="row">
+    @for(laptop of laptopList(); track laptop.id) {
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4 bg-light">
+            <img
+              class="img-fluid rounded-start"
+              [src]="laptop.picture"
+              [alt]="laptop.name"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ laptop.name }}</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Prix : {{ size(laptop) }}
+              </h6>
+              <p class="card-text">Nombre : {{ laptop.number }}</p>
+              <div class="btn-group btn-group-sm" role="group">
+                <button
+                  (click)="incrementLife(laptop)"
+                  class="btn btn-outline-secondary"
+                  [disabled]="laptop.number >= 5"
+                >
+                  +
+                </button>
+                <button
+                  (click)="decrementLife(laptop)"
+                  class="btn btn-outline-secondary"
+                  [disabled]="laptop.number <= 1"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>
+
+<footer class="navbar bg-success mb-5">
+   <div class="container text-white justify-content-center">
+    <h2>Contact : +237690539407</h2>
+  </div>
+  <div class="container text-white justify-content-center">
+    <p>Copyright © 2025 GUEGUE IT - Tous droits réservés</p>
+  </div>
+</footer>
